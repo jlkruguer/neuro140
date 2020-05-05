@@ -4,12 +4,18 @@ This repository contains all code used for the neuro 140 final project. Below is
 
 ## Data Processing 
 
-### resize_images.ipynb: This file takes in images from a local directory and converts them to a uniform size (256x256 pixels). 
+resize_images.ipynb: This file takes in images from a local directory and converts them to a uniform size (256x256 pixels). 
 
-png_to_jpg.ipynb: This file 
+png_to_jpg.ipynb: This file takes in images from a local directory and converts them from their original image format to the .jpg format. 
 
-pair_images.ipynb
+pair_images.ipynb: This file takes in two sets of images from a local directory and combines them into one image (512x256 pixels). 
 
-enumerate.ipynb
+enumerate.ipynb: This file takes in images from a local directory and enumerates their file title in order to be processed in Google Colab appropriately.
 
-##
+## Data Augmentation
+
+In order to augment my initial curated custom dataset to have enough data pairs to train a deep learning framework I used the scripts from the following repository: https://github.com/codebox/image_augmentor#examples
+
+## Building GAN Models
+
+
