@@ -14,8 +14,7 @@ enumerate.ipynb: This file takes in images from a local directory and enumerates
 
 ## Data Augmentation
 
-In order to augment my initial curated custom dataset to have enough data pairs to train a deep learning framework I used the scripts from the following repository: 
-(https://github.com/codebox/image_augmentor#examples)
+In order to augment my initial curated custom dataset to have enough data pairs to train a deep learning framework I used the scripts from the following repository: (https://github.com/codebox/image_augmentor#examples)
 
 ## Building GAN Models
 
@@ -23,7 +22,11 @@ All general GAN models and Pix2Pix models used in this project were built and tr
 
 The data used for initial testing came from the Pix2Pix publication data base of processed data: (https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/)
 
-The GAN architecture itself was adapted from the Pix2Pix Tensorflow 2.0 Port which can be found here:
+The GAN architecture itself was adapted from the Pix2Pix Tensorflow 2.0 Core which can be found here:
+(https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb)
+
+For training the custom dataset I loaded my preprocessed data from a local repository into Google Drive and then wrote additional code in Google Colab to mount the that Drive and then pull and extract the zipped processed data for setup and training.
+
 
 
 
