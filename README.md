@@ -27,6 +27,9 @@ The GAN architecture itself was adapted from the Pix2Pix Tensorflow 2.0 Core whi
 
 For training the custom dataset I loaded my preprocessed data from a local repository into Google Drive and then wrote additional code in Google Colab to mount the that Drive and then pull and extract the zipped processed data for setup and training.
 
+The zipped data files are too large to upload to GitHub. To get the data used in this project please email me at jordan.kruguer@gmail.com.
+
+
 
 
 
