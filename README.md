@@ -29,6 +29,10 @@ For training the custom dataset I loaded my preprocessed data from a local repos
 
 The zipped data files are too large to upload to GitHub. To get the data used in this project please email me at jordan.kruguer@gmail.com.
 
+For best performance make sure to use the GPU option under runtime preferences. 
+
+final_project.ipynb contains all code to build a Pix2Pix model, load preprocessed and custom datasets, as well as monitor and visualize the training of a built model. Please see the file for additional details. 
+
 
 
 
