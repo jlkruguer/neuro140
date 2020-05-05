@@ -18,6 +18,8 @@ In order to augment my initial curated custom dataset to have enough data pairs 
 
 ## Building GAN Models
 
-All general GAN models and Pix2Pix models used in this project were built and trained in Google Colab. The data used for initial testing came from the Pix2Pix publication data base (https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/)
+All general GAN models and Pix2Pix models used in this project were built and trained in Google Colab. 
+
+The data used for initial testing came from the Pix2Pix publication data base (https://people.eecs.berkeley.edu/~tinghuiz/projects/pix2pix/datasets/)
 
 
